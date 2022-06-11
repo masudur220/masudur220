@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- adding font -->
+    <link rel="stylesheet" href="./src/font.css">
+    <!-- adding tailwindcss style -->
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./css/custom.css">
+
+</head>
+<body class="scroll-smooth relative ">
+    <!-- chat options -->
+    <!-- <div class="chatcoin fixed z-20 right-12 bottom-20 flex">
+        <div class="chatbox">
+            <div class=" profile">A</div>
+            <div class="w-full h-4"></div>
+            <div class="w-full h-80 relative">
+                <div id="textCont" class="cont w-full h-auto bottom-0 py-0 absolute max-w-72">
+                    <p class="left">hi</p>
+                    <p class="right">hlw</p>
+                    <p class="left">how are you?</p>
+                    <p class="right">fine!</p>
+                </div>
+            </div>
+            <div class="flex">
+                <input class="px-2 bg-slate-200 w-4/5 h-8 outline-none border-t-2 border-sky-400 text-slate-700" type="text" id="inputText" onchange="getValue();">
+
+                <input type="button" value="Sent" class="bg-slate-200 w-1/5 h-8 rounded-br-2xl outline-none border-t-2 border-sky-400 text-md font-bold text-sky-500 cursor-pointer" onclick="sent">
+            </div>
+        </div>
+
+        <div class=" bg-sky-500 rounded-2xl h-10 text-sky-50 text-2xl py-1 px-2 font-bold">hi..</div>
+
+
+        <div class="w-6 h-5 rounded-full bg-sky-300 mt-6 ml-2"></div>
+
+        <div class="chatCoin mt-8 bg-slate-200 border-8 border-sky-300 rounded-full w-24 h-20  cursor-pointer shadow-lg shadow-slate-400">
+            <h2 class="font-bold text-3xl p-0 m-auto text-sky-400 py-3 text-center w-full">Chat</h2>
+        </div>
+    </div> -->
+
+
+    <header class="fixed z-10 bg-slate-100 p-2.5 w-full">
+        <nav class="cont flex relative py-2">
+            <div class="logo"><a href="./index.html" class="link text-slate-600 font-bold text-3xl">masudur<span class="text-sky-500">220</span></a></div>
+            <!-- MenueBtn -->
+            <a class="menu" onclick="nav()">☰</a>
+            <!-- nav menu -->
+            <div class="navCont">
+                <ul class="navMenu">
+                    <li class="navActive"><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experties">Experties</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li class="bg-sky-400 mx-4 rounded-lg hover:bg-sky-300"><a class="px-4" style="color: white;" href="cv.html">CV</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="hero bg-slate-300">
+        <div class="cont min-h-[100vh] m-auto lg:flex">
+                <div class="w-2/5 m-auto">
+                    <h3 id="heroSubtitle" class="py-5 text-4xl text-slate-600">Are you looking for an</h3>
+                    <h1 id="heroTitle" class="py-2 lg:text-7xl lg:text-left text-center text-5xl font-bold text-slate-800">Web Developer</h1>
+                    <p id="heroParagraph" class="py-2 text-2xl text-slate-700">A full stack Web Developer with eye catching Designer, if you want an amazing ordinary Website with optimum cost you can hire me...</p>
+    
+                    <!-- button -->
+                    <input class="btn btnPrimary" type="button" value="Contact Me">
+                    <input class="btn btnSecondary" type="button" value="With Fiverr">
+                </div>
+    
+                <div class="w-2/5 m-auto">
+                    <img class=" p-10 lg:p-2 xl:p-0 m-auto" src="./kindpng_6118409.png" alt="">
+                </div>
+        </div>
+    </section>
+    <section id="about" class="about bg-sky-50">
+        <div class="cont">
+            <h2 class="headLine">About</h2>
+            <div class="lg:flex">
+                <div class="lg:w-1/3 m-auto py-10">
+                    <img class="m-auto border-8 border-slate-300 shadow-md shadow-sky-200 rounded-3xl" src="./img/photoport.png" alt="profile Masudur" class="avator">
+                    <h3 class="py-1 pt-10 text-3xl text-sky-500 font-bold min-w-full text-center text-clip">Masudur Rahman</h3>
+                    <h4 class="text-xl w-full text-center text-slate-600">Full Stack Web Developer</h4>
+                </div>
+                <div class="lg:w-3/6 py-10 m-auto mx-10 bg-slate-300 border-8 border-slate-300 shadow-md shadow-sky-200 rounded-3xl p-5 contPara">
+                    <p>  Hi there,</p>
+                    <p> I am Masudur Rahman, full stack Web Developer and Designer, if you want to do an web application, I can serve for you. With the most intelligency and more powerfull softwere will build for you.
+                    <br>
+                    My code is full fresh hand-code, no CMS. As the tools ReactJs, SCSS, Tailwind, Bootstrap, JQuery, TypeScript, JavaScript, HTML and CSS for frontend services and the backend services PHP, NodeJs, ExpressJs, SQL and My SQL. For relationship two side Ajax, Json and Xml. For Dersigning perpose Adobe Photoshop, Adobe Illustrator, Figma and Canva.
+                    <br>
+                    I have more than two year experience for this services. I will have a promise for good experience for your services.
+                    Thank you for reading, Have a nice day!
+                    <br>
+                    Masudur Rahman
+                    <br>
+                    Full Stack Web Developer
+                    </p>
+    
+                </div>
+                <div class="lg:w-1/3 contPara m-auto py-10 mx-10">
+                    <div class="py-5">
+                        <h3 class="text-sky-500 text-2xl">Vission</h3>
+                        <p>An E-commerse Website that will be easy to load, Optimum Design for increasement of selling, Good user experience. Easy to use for all End users. A good experience to upload the product. Wonderfull Dashboard and control all contents from dashboard or control page.</p>
+                    </div>
+                    <div class="py-5">
+                        <h3 class="text-sky-500 text-2xl">Mission</h3>
+                        <p>Good Experience in work, suitable work experience, Client shetisfection is first enhancement to work. enable to allwork experience. all type of website can I buil up.  Increasement of the business.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <Section id="services" class="bg-slate-200">
+        <div class="cont">
+            <h2 class="headLine">Services</h2>
+
+            <div class="servicesItem">
+                <div class="description">
+                    <h2 class="">Frontend Services</h2>
+                    <ul>
+                        <li>&#10162;<span>Beautiful design and dynamic land page</span></li>
+                        <li>&#10162;<span>Modern framework were used in project</span></li>
+                        <li>&#10162;<span>As you need, ReactJs or tailwind CSS</span></li>
+                        <li>&#10162;<span>Uses Bootstrap or JQuery for small project</span></li>
+                        <li>&#10162;<span>As you need TypeScrip for programing</span></li>
+                        <li>&#10162;<span>Good Experience to all work and Application</span></li>
+                    </ul>
+                </div>
+                <img src="./img/frontend.png" alt="">
+            </div>
+
+            <div class="servicesItem">
+                <img src="./img/backend.png" alt="">
+                <div class="description">
+                    <h2 class="">Backend Services</h2>
+                    <ul>
+                        <li>&#10162;<span>Modern Technology uses in  Server</span></li>
+                        <li>&#10162;<span>As the needed PHP, NodeJs or ExpressJs</span></li>
+                        <li>&#10162;<span>As the Database tools SQL and My SQL</span></li>
+                        <li>&#10162;<span>API Handling in Uses as the need as</span></li>
+                        <li>&#10162;<span>Using Ajax, xml or json to data store</span></li>
+                        <li>&#10162;<span>Super Security system in backend data</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="servicesItem">
+                <div class="description">
+                    <h2>Full Stack Services</h2>
+                    <ul>
+                        <li>&#10162;<span>Eye catching Dersigning in your site</span></li>
+                        <li>&#10162;<span>As need as Frontend technology used</span></li>
+                        <li>&#10162;<span>PHP or NodeJs in backend server building</span></li>
+                        <li>&#10162;<span>Most uses database uses in server</span></li>
+                        <li>&#10162;<span>Full dynamic website in control</span></li>
+                        <li>&#10162;<span>Ausome website to uses in all sites</span></li>
+                    </ul>
+                </div>
+                <img src="./img/fullstack.png" alt="">
+            </div>
+        </div>
+    </Section>
+    <section id="experties" class="bg-sky-50">
+        <div class="cont">
+            <h2 class="headLine">Experties</h2>
+            <div class="lg:grid grid-cols-2 gap-24 mt-20">
+                <img class="lg:m-0" src="./img/expertis.png" alt="">
+                <div class="progress">
+                    <div class="Item w-full my-12">
+                        <div class=" bg-slate-300 w-full h-5 rounded-lg flex">
+                            <div class="fill bg-slate-700 w-[70%] h-5 rounded-lg transition-[0.5] hover:w-[10%]"></div>
+                            <div class="bull h-8 w-8 rounded-full bg-slate-900 -mx-4 -my-1.5"></div>
+                        </div>
+                        <div class="flex py-3"><h2 class="m-auto text-2xl text-slate-700">70%</h2> <h2 class="m-auto text-2xl text-slate-900">UI Designing</h2></div>
+
+                    </div>
+
+                    <div class="Item w-full my-12">
+                        <div class=" bg-slate-300 w-full h-5 rounded-lg flex">
+                            <div class="fill bg-sky-500 w-[95%] h-5 rounded-lg transition-[0.5] hover:w-[10%]"></div>
+                            <div class="bull h-8 w-8 rounded-full bg-slate-900 -mx-4 -my-1.5"></div>
+                        </div>
+                        <div class="flex py-3"><h2 class="m-auto text-2xl text-slate-700">95%</h2> <h2 class="m-auto text-2xl text-slate-900">Development</h2></div>
+                        
+                    </div>
+
+                    <div class="Item w-full my-12">
+                        <div class=" bg-slate-300 w-full h-5 rounded-lg flex">
+                            <div class="fill bg-slate-700 w-[85%] h-5 rounded-lg transition-[0.5] hover:w-[10%]"></div>
+                            <div class="bull h-8 w-8 rounded-full bg-slate-900 -mx-4 -my-1.5"></div>
+                        </div>
+                        <div class="flex py-3"><h2 class="m-auto text-2xl text-slate-700">85%</h2> <h2 class="m-auto text-2xl text-slate-900">Programming</h2></div>
+                        
+                    </div>
+
+                    <div class="Item w-full my-12">
+                        <div class=" bg-slate-300 w-full h-5 rounded-lg flex">
+                            <div class="fill bg-sky-500 w-[90%] h-5 rounded-lg transition-[0.5] hover:w-[10%]"></div>
+                            <div class="bull h-8 w-8 rounded-full bg-slate-900 -mx-4 -my-1.5"></div>
+                        </div>
+                        <div class="flex py-3"><h2 class="m-auto text-2xl text-slate-700">90%</h2> <h2 class="m-auto text-2xl text-slate-900">API Optimizing</h2></div>
+                        
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+    <section id="" class="bg-slate-200">
+        <div class="cont">
+            <div class="servicesItem">
+                <div class="description">
+                    <h2>Why do people want to work with me?</h2>
+                    <ul>
+                        <li>&#10162;<span>Lorem ipsum dolor sit amet consectetur</span></li>
+                        <li>&#10162;<span>Lorem ipsum dolor sit amet consectetur</span></li>
+                        <li>&#10162;<span>Lorem ipsum dolor sit amet consectetur</span></li>
+                        <li>&#10162;<span>Lorem ipsum dolor sit amet consectetur</span></li>
+                        <li>&#10162;<span>Lorem ipsum dolor sit amet consectetur</span></li>
+                        <li>&#10162;<span>Lorem ipsum dolor sit amet consectetur</span></li>
+                        <li>&#10162;<span>Lorem ipsum dolor sit amet consectetur</span></li>
+                        <li>&#10162;<span>Lorem ipsum dolor sit amet consectetur</span></li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="./img/kindpng_2195649.png" alt="">
+                </div>
+            </div>
+            <div class="servicesItem">
+                <div>
+                    <img src="./img/client2.png" alt="">
+                </div>
+                <div class="description">
+                    <h2 class="">Client Ensurement</h2>
+                    <ul>
+                        <li>&#10162;<span>Lorem ipsum dolor sit amet consectetur</span></li>
+                        <li>&#10162;<span>Lorem ipsum dolor sit amet consectetur</span></li>
+                        <li>&#10162;<span>Lorem ipsum dolor sit amet consectetur</span></li>
+                        <li>&#10162;<span>Lorem ipsum dolor sit amet consectetur</span></li>
+                        <li>&#10162;<span>Lorem ipsum dolor sit amet consectetur</span></li>
+                        <li>&#10162;<span>Lorem ipsum dolor sit amet consectetur</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="bg-sky-50">
+        <div style="background: url(./img/bgeffect.png)  no-repeat; background-size: cover;">
+            <div class="cont">
+                <h2 class="headLine">Portfolio</h2>
+                <div class="portCont mt-20">
+                    <div class="portItem">
+                        <div class="card">
+                            <img src="./img/port/leospa.png" alt="">
+                            <h3>Leospa Clean & SCSS</h3>
+                        </div>
+                        <h3 class="btn" >Demo</h3>
+                    </div>
+                    <div class="portItem">
+                        <div class="card">
+                            <img src="./img/port/leospa.png" alt="">
+                            <h3>Leospa Clean & SCSS</h3>
+                        </div>
+                        <h3 class="btn" >Demo</h3>
+                    </div>
+                    <div class="portItem">
+                        <div class="card">
+                            <img src="./img/port/leospa.png" alt="">
+                            <h3>Leospa Clean & SCSS</h3>
+                        </div>
+                        <h3 class="btn" >Demo</h3>
+                    </div>
+                </div>
+                <div class=" w-full mt-10">
+
+                    <div class="more bg-sky-400 rounded-tl-2xl rounded-tr-none rounded-bl-none rounded-br-2xl text-center py-5 text-xl text-slate-50" onclick="document.load('./portfolio.html');">See more...</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="bg-slate-200">
+        <div style="background: url() no-repeat; background-size: cover;" >
+            <div class="cont">
+                <h2 class="headLine">Contact</h2>
+                <div class="lg:grid grid-cols-2 my-12">
+                    <div class="">
+                        <h2 class="text-2xl py-3 text-slate-600 font-bold">Mailing Address</h2>
+                        <p class="text-xl text-slate-500">76 KDA Avenue, Jessore-Dhaka Roard, New Market Khulna, 702</p>
+                        <br>
+                        <h2 class="text-2xl py-3 text-slate-600 font-bold">Contact Info</h2>
+                        <p class="text-xl text-slate-500"><strong>Phone: </strong>+88 01745562132,  +088 01934456576</p>
+                        <br>
+                        <p class="text-xl text-slate-500"><strong>Email: </strong>mmdmasudurrahmahman@gmail.com,  rhmasudur87@gmail.com</p>
+                        <br>
+                        <h2 class="text-2xl py-3 text-slate-600 font-bold">Social Links</h2>
+                        <a class="text-xl font-bold text-slate-500 hover:text-sky-500 duration-300 p-4" href="facebook.com/masudur220">Facebook</a>
+                        <a class="text-xl font-bold text-slate-500 hover:text-sky-500 duration-300 p-4" href="">Twtter</a>
+                        <a class="text-xl font-bold text-slate-500 hover:text-sky-500 duration-300 p-4" href="">Instagram</a>
+                        <a class="text-xl font-bold text-slate-500 hover:text-sky-500 duration-300 p-4" href="">LinkedIn</a>
+                    </div>
+                    <div class="form w-full">
+                        <form action="contact.php" class="">
+                            <input class="inputField" type="email" name="email" id="email" placeholder="type your email"> <br>
+    
+                            <input class="inputField" type="text" placeholder="Subject"><br>
+    
+                            <textarea class="inputField" name="message" id="" cols="30" rows="8" placeholder="Type your Message..."></textarea> <br>
+    
+                            <input class="inputSubmit" type="submit" value="Submit Your Message">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faq" class="faq bg-sky-50">
+        <div class="cont">
+            <h2 class="headLine mb-8">FAQ</h2>
+            <div data-aos="fade-up-right" class="faqSet" onclick="faqset(0);">
+                <div class="faqQue"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit?</p><p class="array">&dArr;</p></div>
+                <div class="faqAns"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos libero tenetur voluptas ipsam sed dicta voluptatem voluptatum consequuntur quo, corporis magni mollitia inventore, id nam deserunt expedita numquam omnis quae?</p></div>
+            </div>
+            <div class="faqSet" onclick="faqset(1);">
+                <div class="faqQue"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit?</p><p class="array">&dArr;</p></div>
+                <div class="faqAns"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos libero tenetur voluptas ipsam sed dicta voluptatem voluptatum consequuntur quo, corporis magni mollitia inventore, id nam deserunt expedita numquam omnis quae?</p></div>
+            </div>
+            <div class="faqSet" onclick="faqset(2);">
+                <div class="faqQue"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit?</p><p class="array">&dArr;</p></div>
+                <div class="faqAns"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos libero tenetur voluptas ipsam sed dicta voluptatem voluptatum consequuntur quo, corporis magni mollitia inventore, id nam deserunt expedita numquam omnis quae?</p></div>
+            </div>
+            <div class="faqSet" onclick="faqset(3);">
+                <div class="faqQue"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit?</p><p class="array">&dArr;</p></div>
+                <div class="faqAns"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos libero tenetur voluptas ipsam sed dicta voluptatem voluptatum consequuntur quo, corporis magni mollitia inventore, id nam deserunt expedita numquam omnis quae?</p></div>
+            </div>
+            <div class="faqSet" onclick="faqset(4);">
+                <div class="faqQue"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit?</p><p class="array">&dArr;</p></div>
+                <div class="faqAns"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos libero tenetur voluptas ipsam sed dicta voluptatem voluptatum consequuntur quo, corporis magni mollitia inventore, id nam deserunt expedita numquam omnis quae?</p></div>
+            </div>
+            <div class="faqSet" onclick="faqset(5);">
+                <div class="faqQue"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit?</p><p class="array">&dArr;</p></div>
+                <div class="faqAns"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos libero tenetur voluptas ipsam sed dicta voluptatem voluptatum consequuntur quo, corporis magni mollitia inventore, id nam deserunt expedita numquam omnis quae?</p></div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-slate-200" >
+        <div class="cont">
+            <div class="foot lg:grid grid-cols-3 gap-24">
+                <div class="footItem">
+                    <h2>Lorem ipsum dolor</h2>
+                    <ul>
+                        <li><a href="">Lorem ipsum dolor sit a</a></li>
+                        <li><a href="">Lorem ipsum dolor sit a</a></li>
+                        <li><a href="">Lorem ipsum dolor sit a</a></li>
+                        <li><a href="">Lorem ipsum dolor sit a</a></li>
+                        <li><a href="">Lorem ipsum dolor sit a</a></li>
+                        <li><a href="">Lorem ipsum dolor sit a</a></li>
+                        <li><a href="">Lorem ipsum dolor sit a</a></li>
+                    </ul>
+                </div>
+                <div class="footItem">
+                    <h2>Importants Links</h2>
+                    <ul>
+                        <li><a href="">W3School Tutorials</a></li>
+                        <li><a href="">JavatPoint Web Tutorials</a></li>
+                        <li><a href="">Stack Overflow Account</a></li>
+                        <li><a href="">Github Reposetory Link</a></li>
+                        <li><a href="">My Projects Code</a></li>
+                        <li><a href="">My Own Components</a></li>
+                        <li><a href="">Lorem ipsum dolor sit a</a></li>
+                    </ul>
+                </div>
+                <div class="footItem">
+                    <h2>Social Media Link</h2>
+                    <ul>
+                        <li><a href="https://www.facebook.com/masudur220">My Facebook profile</a></li>
+                        <li><a href="https://www.facebook.com/page/masudur220">Masudur220 Facebook page</a></li>
+                        <li><a href="https://www.instagram.com/masudur220">My Instagram Profile</a></li>
+                        <li><a href="https://www.twitter.com/masudur220">My Twitter Profile</a></li>
+                        <li><a href="https://www.youtube.com/masudur220">Our Youtube Channels</a></li>
+                        <li><a href="https://www.likedin.com/masudur220">Our Linkedin Services</a></li>
+                        <li><a href="https://www.gohead.com/masudur220">Our Social Overhead</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="bg-slate-500"><p class=" text-slate-100 text-lg text-center w-full ">All reserve and authorate by <strong>Masudur220</strong></p></div>
+    </footer>
+
+<!-- adding javascript file -->
+<script src="./assets/main.js"></script>
+
+</html>

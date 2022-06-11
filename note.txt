@@ -1,0 +1,3 @@
+== to run this app ==
+tch
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch

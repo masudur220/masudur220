@@ -1,0 +1,6 @@
+.fill{
+    transition: width 1s;
+}
+.progress:hover .fill {
+    width: 10%;
+}

@@ -1,0 +1,32 @@
+@font-face {
+    font-family: logoFont;
+    src: url(../font/Audiowide-Regular.ttf);
+  }
+
+  @font-face {
+      font-family: all;
+      src: url(../font/Fredoka-VariableFont_wdth\,wght.ttf);
+  }
+
+  p, h1,h2,h3,h4,h5,h6,a,li, div, input, textarea {
+      font-family: all;
+      font-weight: normal;
+      -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; 
+  }
+
+  .logo a{
+      font-family: logoFont;
+  }
+
+
+.fill{
+    transition: width 0.5s;
+}
+.progress:hover .fill {
+    width: 10%;
+}
